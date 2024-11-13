@@ -2,6 +2,6 @@ spring:
   profiles:
     active: "dev"
   application:
-    name: "config-service"
+    name: "spring-config-service"
     admin:
       enabled: false

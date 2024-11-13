@@ -1,6 +1,6 @@
 # APPLICATION CONFIG
 server:
-  port: 7002
+  port: 7001
   error:
     include-message: "always"
 
@@ -9,5 +9,5 @@ spring:
     config:
       server:
         git:
-          uri: "http://github.com/mugnialby/config-repo"
+          uri: "https://github.com/mugnialby/config-repository.git"
           search-paths: '{application}'
